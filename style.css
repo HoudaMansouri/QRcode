@@ -1,0 +1,37 @@
+.imag {
+    width: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+body {
+    background-color: hsl(212,45%,89%);
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center;
+    height: 100vh;
+}
+.texte {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+.para {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(212, 45%, 89%);
+
+}
+
+#fond {
+    background-color: white;
+    border-radius: 10px;
+    width: 180px;
+    margin: auto;
+    padding: 10px;
+
+}
